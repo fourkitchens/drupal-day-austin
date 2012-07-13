@@ -1,4 +1,4 @@
-dda-splash
+Drupal Day Austin 2012
 ==========
 
 Splash page for Drupal Day Austin 2012
