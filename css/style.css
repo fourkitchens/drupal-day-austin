@@ -1,0 +1,36 @@
+/**
+* Main stylesheet for Drupal Day Austin 2012 splash page
+*/
+/* line 16, ../sass/style.scss */
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+/* line 20, ../sass/style.scss */
+.subheader {
+  text-transform: none;
+}
+
+/* line 24, ../sass/style.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 28, ../sass/style.scss */
+ul {
+  list-style: none;
+}
+/* line 30, ../sass/style.scss */
+ul li {
+  font-size: 18px;
+}
+
+/* line 35, ../sass/style.scss */
+address {
+  font-style: normal;
+}
+
+/* line 39, ../sass/style.scss */
+footer p {
+  font-size: 14px;
+}

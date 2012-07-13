@@ -1,0 +1,41 @@
+/**
+* Main stylesheet for Drupal Day Austin 2012 splash page
+*/
+
+// Fonts
+
+// Colors
+
+$blue: #00ADA7;
+$green: #A0E0A9;
+$red: #C24704;
+$mustard: #D9CC3C;
+
+// Typography
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+.subheader {
+  text-transform: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  li {
+    font-size: 18px;
+  }
+}
+
+address {
+  font-style: normal;
+}
+
+footer p {
+  font-size: 14px;
+}
