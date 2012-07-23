@@ -2,6 +2,7 @@ Drupal Day Austin 2012
 ==========
 
 Splash page for Drupal Day Austin 2012
+September 15, 2012
 
 Hosted by <a href="http://fourkitchens.com/">Four Kitchens</a>.
 
