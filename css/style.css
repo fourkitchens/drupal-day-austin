@@ -1,36 +1,57 @@
 /**
 * Main stylesheet for Drupal Day Austin 2012 splash page
 */
-/* line 16, ../sass/style.scss */
+@import url('http://fonts.googleapis.com/css?family=Asap:400,700');
+@font-face {
+  font-family: 'Asap';
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'AsapBold';
+  font-weight: 700;
+}
+
+/* line 34, ../sass/style.scss */
 h1, h2, h3 {
   text-transform: uppercase;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
+h1, h2 {
+  font-family: "AsapBold", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 42, ../sass/style.scss */
+h3, h4 {
+  font-family: "Asap", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 47, ../sass/style.scss */
 .subheader {
   text-transform: none;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 p {
   font-size: 16px;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 ul {
   list-style: none;
 }
-/* line 30, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 ul li {
   font-size: 18px;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 address {
   font-style: normal;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 footer p {
   font-size: 14px;
 }

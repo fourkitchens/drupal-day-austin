@@ -2,7 +2,25 @@
 * Main stylesheet for Drupal Day Austin 2012 splash page
 */
 
+@import "compass/css3";
+
 // Fonts
+
+@import url('http://fonts.googleapis.com/css?family=Asap:400,700');
+
+@font-face {
+  font-family: 'Asap';
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'AsapBold';
+  font-weight: 700;
+}
+
+$Asap: 'Asap', 'Helvetica Neue', Helvetica, sans-serif;
+
+$AsapBold: 'AsapBold', 'Helvetica Neue', Helvetica, sans-serif;
 
 // Colors
 
@@ -16,6 +34,15 @@ $mustard: #D9CC3C;
 h1, h2, h3 {
   text-transform: uppercase;
 }
+
+h1, h2 {
+  font-family: $AsapBold;
+}
+
+h3, h4 {
+  font-family: $Asap;
+}
+
 
 .subheader {
   text-transform: none;
