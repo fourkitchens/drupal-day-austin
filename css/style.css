@@ -1,8 +1,8 @@
-@import url('http://fonts.googleapis.com/css?family=Asap:400,700');
+@import url("http://fonts.googleapis.com/css?family=Asap:400,700");
 /**
 * Main stylesheet for Drupal Day Austin 2012 splash page
 */
-h1, h2 {
+h1 {
   text-transform: uppercase; }
 
 h1, h2 {
@@ -10,7 +10,8 @@ h1, h2 {
   font-weight: 700; }
 
 h3, h4, h5 {
-  font-family: "Asap", "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Asap", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400; }
 
 .subheader {
   text-transform: none; }
